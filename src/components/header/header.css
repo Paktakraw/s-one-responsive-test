@@ -1,0 +1,107 @@
+.navbar {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(209, 83, 0);
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.navbar-form .flag img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.flag {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-control + a img {
+  height: 100%;
+  display: block;
+}
+
+.form-control {
+  width: 70%;
+  border-radius: 0;
+  border-color: rgb(209, 83, 0);
+}
+
+form a {
+  width: 10%;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-text-link {
+  margin-top: 10px;
+}
+
+.social-tab {
+  background-color: rgb(28, 28, 28);
+  padding: 10px 0px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-tab a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-tab a img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-form input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .navbar-form .search-icon {
+    margin-right: auto;
+  }
+
+  .nav-text-link {
+    margin-bottom: 10px;
+  }
+
+  .social-tab {
+    display: none;
+  }
+}

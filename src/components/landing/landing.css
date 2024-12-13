@@ -1,0 +1,378 @@
+.landing {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-row-1 {
+  display: flex;
+  gap: 1%;
+}
+
+.spec-tire {
+  position: relative;
+  width: 29%;
+  height: auto;
+  border: 2px solid rgb(209, 83, 0);
+}
+
+.hero-pic {
+  width: 70%;
+  position: relative;
+}
+
+.hero-pic img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .spec-tire img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+} */
+
+/* .img-spec-tire {
+  background-image: url("../../images/SOne_index_bg_searchtype.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+} */
+
+.detail {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-image: url("../../images/SOne_index_bg_searchtype.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 20px 0px; */
+}
+
+.detail .dropdown button {
+  width: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.search-tire-detail,
+.search-series-detail,
+.search-max-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+}
+
+.label-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.label-subtitle {
+  font-size: 0.9rem;
+}
+
+.button-search-container {
+  margin-left: 53%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+/* .detail .button-search {
+  width: 140px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-left: 45px;
+} */
+
+.header-search-tire {
+  background-color: rgb(209, 83, 0);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+/* row2 */
+
+.pic-carousal {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  width: 20%;
+  height: auto;
+  max-height: 100%;
+  padding: 10px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pic-carousal-mid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header-search-tire-mobile {
+  display: none;
+}
+
+.search-mobile img {
+  width: 40px;
+}
+
+/* .service {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+} */
+
+.service {
+  width: 100%;
+  display: flex;
+}
+
+.service img {
+  width: 16.666%;
+  margin-top: 10px;
+}
+
+/* row3 */
+
+.hero-row-3 {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.showroom {
+  flex: 42%;
+  border: 2px solid rgb(209, 83, 0);
+  background-color: black;
+}
+
+.news-event {
+  flex: 60%;
+  border: 2px solid rgb(209, 83, 0);
+}
+
+.contact {
+  flex: 42%;
+  /* border: 2px solid rgb(209, 83, 0); */
+}
+
+.province,
+.district,
+.road {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.head-showroom-form {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+}
+
+.dropdown-province .dropdown,
+.dropdown-district .dropdown,
+.dropdown-road .dropdown {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+.form-showroom-search button {
+  background-color: white;
+  color: black;
+  width: 200px;
+  border: 2px solid rgb(209, 83, 0);
+  border-radius: 5px;
+}
+
+.header-search-showroom {
+  background-color: rgb(209, 83, 0);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+.concern {
+  text-align: center;
+  margin: 15px 0px;
+  color: red;
+}
+
+.button-search-showroom {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  height: 30px;
+}
+
+.showroom-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+/* News & event */
+.head-news-container {
+  padding: 10px;
+  font-size: x-large;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgb(209, 83, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+.point-page-news {
+  display: flex;
+  gap: 10px;
+}
+
+.tab-orange {
+  background-color: rgb(209, 83, 0);
+  height: 10px;
+}
+
+.card-all-news {
+  display: flex;
+  padding: 5px;
+}
+
+.tip {
+  background-color: rgb(35, 35, 35);
+  outline: 1px solid rgb(209, 83, 0);
+  outline-offset: -1px;
+  position: relative;
+  z-index: 0;
+}
+
+.text-register-news {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-receive-news {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  padding: 30px 0px;
+}
+
+.tel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tel-pic {
+  width: 100%;
+}
+
+.googlemap {
+  width: 50%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-row-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spec-tire {
+    display: none;
+  }
+
+  .pic-carousal {
+    display: none;
+  }
+
+  .hero-pic {
+    width: 100%;
+  }
+
+  .header-search-tire-mobile {
+    background-color: rgb(209, 83, 0);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 100%;
+  }
+
+  .service img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .hero-row-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-all-news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .showroom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .head-showroom-form {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .concern {
+    text-align: center;
+    color: red;
+  }
+}
